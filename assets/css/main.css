@@ -20,10 +20,10 @@ header{
     background-size: cover;
     position: relative;
 
-    height: 100px;
+    height: auto;
     width: 100%;
 
-    padding: 20vh 0;
+    padding-top: 10vh;
 }
 
 header .gradient{
@@ -51,9 +51,9 @@ header h1{
 }
 
 section{
-    width: 90%;
+    width: 63%;
     margin: 0 auto;
-    padding: 20% 0;
+    padding: 10% 0;
 }
 
 header h2{
@@ -121,7 +121,7 @@ section p{
 
 
 footer{
-    background-color: white;
+    background-color: #F1F1F1;
     width: 100%;
 
     padding: 10% 0 10% 0;
@@ -133,8 +133,8 @@ footer .footer-cont{
 }
 
 .img-logo-footer{
-    width: 45%;
-    height: 45%;
+    width: 140px;
+    height: 140px;
 }
 
 .footer-list{
@@ -148,4 +148,12 @@ footer .footer-cont{
     font-family: "BasierRegu";
     font-size: 15px;
     font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+
+    section{
+        width: 90%;
+    }
+
 }
