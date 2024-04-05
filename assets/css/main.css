@@ -20,10 +20,10 @@ header{
     background-size: cover;
     position: relative;
 
-    height: auto;
+    height: 90vh;
     width: 100%;
 
-    padding-top: 10vh;
+    padding-top: 3vh;
 }
 
 header .gradient{
@@ -34,6 +34,7 @@ header .gradient{
     width: 100%;
     height: 100%;
     z-index: 0;
+    pointer-events: none;
 }
 
 header h1{
@@ -43,7 +44,7 @@ header h1{
     left:0px; */
     position: relative;
     word-break: keep-all;
-    width: 50%;
+    width: 35%;
     padding: 0 5%;
     font-family: "BasierBold";
     font-size: 50px;
@@ -54,6 +55,33 @@ section{
     width: 63%;
     margin: 0 auto;
     padding: 10% 0;
+}
+
+nav{
+    width: 50%;
+    margin: 0 auto;
+    border:1px solid white;
+    border-radius: 50px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 20vh;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    font-family: "BasierRegu";
+    padding: 2px 17px 2px 17px;
+}
+
+nav a.active{
+    color:black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: "BasierRegu";
 }
 
 header h2{
@@ -153,6 +181,15 @@ footer .footer-cont{
 @media screen and (max-width: 900px) {
 
     section{
+        width: 90%;
+    }
+    header{
+        height: auto;
+    }
+    header h1{
+        width: 50%;
+    }
+    nav{
         width: 90%;
     }
 
