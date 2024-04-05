@@ -73,7 +73,7 @@ nav a{
     color:white;
     text-decoration: none;
     font-family: "BasierRegu";
-    padding: 2px 17px 2px 17px;
+    padding: 2px 4% 2px 4%;
 }
 
 nav a.active{
@@ -93,6 +93,16 @@ header h2{
     font-family: "BasierRegu";
     font-size: 30px;
     font-weight: 400;
+}
+
+header p{
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-family: "BasierRegu";
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 5%;
 }
 
 h2{
@@ -178,6 +188,15 @@ footer .footer-cont{
     font-weight: 400;
 }
 
+.galerie .gal-portrait-full{
+    width: 40%;
+    justify-content: space-between;
+}
+
+.galerie-full{
+    justify-content: center;
+}
+
 @media screen and (max-width: 900px) {
 
     section{
@@ -192,5 +211,7 @@ footer .footer-cont{
     nav{
         width: 90%;
     }
-
+    .galerie .gal-portrait-full{
+        width: 80%;
+    }
 }
