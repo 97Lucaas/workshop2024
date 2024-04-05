@@ -17,11 +17,11 @@ html,body{
 header{
     background-image: url("../img/Alexandre.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 
     height: 100px;
-    width: 100vw;
+    width: 100%;
 
     padding: 20vh 0;
 }
@@ -122,7 +122,7 @@ section p{
 
 footer{
     background-color: white;
-    width: 100vw;
+    width: 100%;
 
     padding: 10% 0 10% 0;
 }
@@ -145,4 +145,7 @@ footer .footer-cont{
 .footer-list a{
     color: black;
     text-decoration: none;
+    font-family: "BasierRegu";
+    font-size: 15px;
+    font-weight: 400;
 }
